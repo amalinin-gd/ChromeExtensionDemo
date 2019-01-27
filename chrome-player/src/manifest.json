@@ -8,9 +8,8 @@
   "browser_action": {
     "default_popup": "index.html"
   },
-  "permissions": [
-    "activeTab"
-  ],
+  "icons": { "16": "assets/SpotifyLogo.png", "48": "assets/SpotifyLogo.png", "128": "assets/SpotifyLogo.png" },
+  "permissions": ["activeTab"],
 
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

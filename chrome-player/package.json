@@ -4,9 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build-with-manifest": "npm run build && npm run copy-manifest",
+    "build-extension": "npm run build && npm run copy-manifest && npm run copy-icon",
     "build": "ng build",
     "copy-manifest": "cp ./src/manifest.json ./dist/chrome-player/manifest.json",
+    "copy-icon": "cp ./src/assets/SpotifyLogo.png ./dist/chrome-player/SpotifyLogo.png",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
