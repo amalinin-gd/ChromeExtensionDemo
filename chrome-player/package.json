@@ -4,7 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "build-with-manifest": "npm run build && npm run copy-manifest",
     "build": "ng build",
+    "copy-manifest": "cp ./src/manifest.json ./dist/chrome-player/manifest.json",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/amalinin-gd/ChromeExtensionDemo#readme",
   "dependencies": {
-    "@angular/cli": "^7.2.3"
+    "@angular/cli": "^7.2.3",
+    "spotify-web-sdk": "^0.3.0"
   }
 }
