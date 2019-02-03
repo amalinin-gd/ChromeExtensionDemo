@@ -5,6 +5,40 @@
   color: white;
   padding-bottom: 10px;
 
+  h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    padding: 20px 75px;
+
+    &.first{
+      padding-top: 0;
+    }
+
+    .cover {
+      height: 50px;
+      width: 50px;
+      flex-shrink: 0;
+      border: 2px solid #fff;
+      margin-right: 10px;
+    }
+
+    .name-container {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
   ul {
     padding: 0;
 

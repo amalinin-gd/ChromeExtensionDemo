@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   public trackUrl: string;
   public tracks: Track[] = [];
   public trackIds: string[] = [
-    '3IT5yzSCLiu8PBgIWqSaA4',
+    '3jzerzfM8lLFej7MAry7qG',
     '0i3Hm7P3jRoMXrWTRXZUEx',
     '2aIypBrTUf0uETgMpeVkJF'
   ];
@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
   public ngOnInit(): void {
     spotify.init({
       // tslint:disable-next-line:max-line-length
-      token: 'BQDZOK5ddXQT_dYtZhuKlRxCJrcBUPHvOgaGN2EItpZJ1UphU7_ZSgoxhqQYzVu3rSzgjS3YEZATZ-N4CmMI7uJdVR6qf4dw6iS-PypQzjTG9SWbZq0OL6Y9M2RsePoIL_Emt4zQD90WyuaVf-SdEWeWvqS1vuLmaRfD5qOO5S22Gl6kIPYzFbOc7j92WKNc'
+      token: 'BQDv9zf8hNuuwodaleroBElqVaiaLBN1mdCiJ91O4PcSHn7NYNHDrHm7iAj79cIPC49AIGQeOa1ngGnsEYaxEWz35LDlN-d4ORlcJ3lAlQK6lgzocbMmRkTd9k5iLRUhFWO184g83Gq9mKvAMZXeXo6ha4etRul4xMQFqUabpJfmVfWgpmhT-F1AJr_mWF6n'
     });
 
     this.loadSongs();
