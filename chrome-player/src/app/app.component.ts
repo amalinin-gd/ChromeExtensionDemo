@@ -56,7 +56,7 @@ export class AppComponent implements OnInit {
     });
   }
 
-  private loadSongs() {
+  private loadSongs(): void {
     const trackPromises: Promise<Track>[] = [];
     const songsLimit = 3;
     const randomIds = this.getRandomTrackIds(songsLimit);
