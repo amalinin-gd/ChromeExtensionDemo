@@ -8,7 +8,21 @@
   "browser_action": {
     "default_popup": "index.html"
   },
-  "icons": { "16": "assets/SpotifyLogo.png", "48": "assets/SpotifyLogo.png", "128": "assets/SpotifyLogo.png" },
+  "content_scripts": [{
+    "matches":        ["http://*/*", "https://*/*"],
+    "include_globs":  ["http://www.google.*/*", "https://www.google.*/*"],
+    "js":      ["content.js"]
+  }],
+  "icons": {
+    "16": "assets/SpotifyLogo.png",
+    "48": "assets/SpotifyLogo.png",
+    "128": "assets/SpotifyLogo.png"
+  },
+  "web_accessible_resources":[
+    "assets/background.jpg",
+    "assets/pink_floyd_wall_paper.jpg",
+    "https://i.scdn.co/*"
+  ],
   "permissions": ["activeTab"],
 
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
