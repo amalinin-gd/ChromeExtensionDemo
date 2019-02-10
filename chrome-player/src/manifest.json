@@ -13,6 +13,12 @@
     "include_globs":  ["http://www.google.*/*", "https://www.google.*/*"],
     "js":      ["content.js"]
   }],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
   "icons": {
     "16": "assets/SpotifyLogo.png",
     "48": "assets/SpotifyLogo.png",

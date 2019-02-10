@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build-extension": "npm run build && npm run copy-manifest && npm run copy-assets && npm run copy-content-script",
+    "build-extension": "npm run build && npm run copy-manifest && npm run copy-assets && npm run copy-ext-script",
     "build": "ng build",
     "copy-manifest": "cp ./src/manifest.json ./dist/chrome-player/manifest.json",
     "copy-assets": "cp -R ./src/assets/ ./dist/chrome-player/assets/",
-    "copy-content-script": "cp ./src/content/content.js ./dist/chrome-player/content.js",
+    "copy-ext-script": "cp -R ./src/ext_scripts/. ./dist/chrome-player/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
