@@ -19,8 +19,7 @@
     "128": "assets/SpotifyLogo.png"
   },
   "web_accessible_resources":[
-    "assets/background.jpg",
-    "assets/pink_floyd_wall_paper.jpg",
+    "assets/*",
     "https://i.scdn.co/*"
   ],
   "permissions": ["activeTab"],
